@@ -1,4 +1,4 @@
-export default class Modifiers {
+export class Modifiers {
     // non-stackable
     atk_damage = 0; // used to known as smash damage
     crit_damage = 0;
@@ -41,7 +41,7 @@ export default class Modifiers {
     }
 }
 
-export default class BaseAttribute {
+export class BaseAttribute {
     str = 0;
     int = 0;
 
