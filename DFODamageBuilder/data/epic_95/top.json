@@ -1,0 +1,77 @@
+[
+  {
+    "name" : "Cirrostratus: Sky Screen",
+    "set_id"  : [95001],
+    "all_atk" : 4,
+    "additional_atk" : 16
+  },
+
+  {
+    "name" : "Super: Cirrostratus: Sky Screen",
+    "set_id"  : [95001, 95011],
+    "all_atk" : 5,
+    "additional_atk" : 20
+  },
+
+  {
+    "name": "Water Ascension: Never-stopping Mountain Bloom",
+    "set_id": [95002],
+    "bonus_damage": 17,
+    "skill_up": [
+      {
+        "range": [
+          1,
+          35
+        ],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Super: Water Ascension: Never-stopping Mountain Bloom",
+    "set_id": [95002, 95012],
+    "bonus_damage": 20,
+    "skill_up": [
+      {
+        "range": [
+          1,
+          45
+        ],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Humble Charming Polaris",
+    "set_id": [95003],
+    "skill_atk": 14
+  },
+
+  {
+    "name": "Malignitas the Encroacher",
+    "set_id": [95004],
+    "skill_atk": 17
+  },
+
+  {
+    "name": "Super: Malignitas the Encroacher",
+    "set_id": [95004, 95014],
+    "skill_atk": 23
+  },
+
+  {
+    "name": "Red Lightbearer of Truth",
+    "set_id": [95005],
+    "skill_atk": 12,
+    "fire": 16
+  },
+
+  {
+    "name": "Super: Red Lightbearer of Truth",
+    "set_id": [95005, 95015],
+    "skill_atk": 17,
+    "fire": 20
+  }
+]
