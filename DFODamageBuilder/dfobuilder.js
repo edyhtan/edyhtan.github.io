@@ -5,7 +5,7 @@ async function load_equipment() {
     const qualities = [/*"legendary",*/ "epic"]
     const levels = [95/*, 100*/]
     const types = ["shoulder", "top", "bottom", "belt", "shoe", "bracelet", "necklace", "ring", "sub", "magic_stone",
-        "earring"/*, "weapon"*/]
+        "earring","weapon"]
 
     for (const type of types) {
         var loadout = []
@@ -19,7 +19,6 @@ async function load_equipment() {
         }
         gear_full_list.push(loadout)
     }
-
     return gear_full_list
 }
 
