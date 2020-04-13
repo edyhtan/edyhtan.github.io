@@ -1,0 +1,90 @@
+[
+  {
+    "name" : "Cumulus: Sky Holder",
+    "set_id"  : [95001],
+    "all_atk" : 4,
+    "stat_up" : 16
+  },
+
+  {
+    "name" : "Super: Cumulus: Sky Holder",
+    "set_id"  : [95001, 95011],
+    "all_atk" : 5,
+    "stat_up" : 20
+  },
+
+  {
+    "name": "Midgap Season: Never-peaking Frost",
+    "set_id": [95002],
+    "additional_atk": 17,
+    "skill_up": [
+      {
+        "range": [40, 48],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Super: Midgap Season: Never-peaking Frost",
+    "set_id": [95002, 95012],
+    "additional_atk": 21,
+    "skill_up": [
+      {
+        "range": [35, 48],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Noble Appealing Lyra",
+    "set_id": [95003],
+    "atk_up": 15,
+    "skill_up": [
+      {
+        "range": [50, 50],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Super: Noble Appealing Lyra",
+    "set_id": [95003, 95013],
+    "atk_up": 21,
+    "skill_up": [
+      {
+        "range": [50, 50],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Catharis the Purificator",
+    "set_id": [95004],
+    "additional_atk": 19
+  },
+
+  {
+    "name": "Super: Catharis the Purificator",
+    "set_id": [95004, 95014],
+    "additional_atk": 24
+  },
+
+  {
+    "name": "Rainbow Lightbearer of Innocence",
+    "set_id": [95005],
+    "stat_up": 13,
+    "fire": 14, "water": 14, "light": 14, "shadow": 14
+  },
+
+
+  {
+    "name": "Super: Rainbow Lightbearer of Innocence",
+    "set_id": [95005, 95015],
+    "stat_up": 18,
+    "fire": 20, "water": 20, "light": 20, "shadow": 20
+  }
+]

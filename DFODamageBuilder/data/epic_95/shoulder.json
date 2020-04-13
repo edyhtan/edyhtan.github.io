@@ -1,16 +1,16 @@
 [
     {
-        "name" : "Cirrostratus: Sky Screen",
+        "name" : "Cirrus: Sky Arbor",
         "set_id"  : [95001],
         "all_atk" : 4,
-        "additional_atk" : 16
+        "skill_atk" : 16
     },
 
     {
-        "name" : "Super: Cirrostratus: Sky Screen",
+        "name" : "Super: Cirrus: Sky Arbor",
         "set_id"  : [95001, 95011],
         "all_atk" : 5,
-        "additional_atk" : 20
+        "skill_atk" : 20
     },
 
     {
@@ -19,10 +19,7 @@
         "bonus_damage": 17,
         "skill_up": [
             {
-                "range": [
-                    1,
-                    35
-                ],
+                "range": [1, 35],
                 "value": 1
             }
         ]
@@ -34,10 +31,7 @@
         "bonus_damage": 20,
         "skill_up": [
             {
-                "range": [
-                    1,
-                    45
-                ],
+                "range": [1, 45],
                 "value": 1
             }
         ]
@@ -47,6 +41,12 @@
         "name": "Humble Charming Polaris",
         "set_id": [95003],
         "skill_atk": 14
+    },
+
+    {
+        "name": "Super: Humble Charming Polaris",
+        "set_id": [95003, 95013],
+        "skill_atk": 18
     },
 
     {

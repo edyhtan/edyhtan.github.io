@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Reincarnation: Returning Life",
+    "setid": [95007],
+    "additional_atk": 12,
+    "additional_crit": 12
+  },
+
+  {
+    "name": "Black Spirit: Swallowed Sun",
+    "setid": [95007, 95017],
+    "additional_atk": 16,
+    "bonus_damage": 16
+  },
+
+  {
+    "name": "Black Spirit: Swallowed Earth",
+    "setid": [95007, 95017],
+    "additional_atk": 14,
+    "bonus_damage": 14,
+    "skill_up": [
+      {
+        "range": [60, 80],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Black Spirit: Swallowed Sky",
+    "setid": [95007, 95017],
+    "additional_atk": 14,
+    "bonus_damage": 14,
+    "skill_cdr": [
+      {
+        "range": [1, 45],
+        "value": 12
+      }
+    ]
+  }
+]

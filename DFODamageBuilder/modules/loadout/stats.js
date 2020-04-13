@@ -61,7 +61,7 @@ export class Modifiers {
         this.light = is_undefined(this.light, json_data.light)
         this.shadow = is_undefined(this.shadow, json_data.shadow)
 
-        // parsing skill level bonus data
+        // parsing skill level bonus and cdr data
         if (json_data.skill_up !== undefined) {
             for (const _ of json_data.skill_up) {
                 const lower = skill_level[_.range[0]]
@@ -72,6 +72,18 @@ export class Modifiers {
                 }
             }
         }
+
+        if (json_data.skill_cdr !== undefined) {
+            for (const _ of json_data.skill_cdr) {
+                const lower = skill_level[_.range[0]]
+                const upper = skill_level[_.range[1]]
+
+                for (let i = lower; i <= upper; i++) {
+                    this.skill_cdr[i] += _.value
+                }
+            }
+        }
+
     }
 }
 

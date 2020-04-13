@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Matryoshka: Infinite Birth",
+    "setid": [95007],
+    "all_atk": 10,
+    "skill_up": [
+      {
+        "range": [1,85],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Black Wings: Encroached Sun",
+    "setid": [95007, 95017],
+    "additional_atk": 15,
+    "skill_atk": 8
+  },
+
+  {
+    "name": "Black Wings: Encroached Earth",
+    "setid": [95007, 95017],
+    "additional_atk": 10,
+    "skill_atk": 8,
+    "skill_up": [
+      {
+        "range": [48, 70],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Black Wings: Encroached Sky",
+    "setid": [95007, 95017],
+    "additional_atk": 11,
+    "skill_atk": 8,
+    "skill_cdr": [
+      {
+        "range": [75, 80],
+        "value": 15
+      }
+    ]
+  }
+]

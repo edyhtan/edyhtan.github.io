@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Vessel of Heaven",
+    "setid": [95006],
+    "atk_up" : 18,
+    "fire": 16, "water": 16, "light": 16, "shadow": 16
+  },
+
+  {
+    "name": "Black Fire: Encroached Sun",
+    "setid": [95006, 95016],
+    "skill_atk" : 16,
+    "fire": 34, "water": 34, "light": 34, "shadow": 34
+  },
+
+  {
+    "name": "Black Fire: Encroached Earth",
+    "setid": [95006, 95016],
+    "skill_atk" : 10,
+    "fire": 34, "water": 34, "light": 34, "shadow": 34,
+    "skill_up": [
+      {
+        "range": [80, 85],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Black Fire: Encroached Sky",
+    "setid": [95006, 95016],
+    "skill_atk" : 11,
+    "fire": 34, "water": 34, "light": 34, "shadow": 34,
+    "skill_cdr": [
+      {
+        "range": [35, 45],
+        "value": 12
+      }
+    ]
+  }
+]

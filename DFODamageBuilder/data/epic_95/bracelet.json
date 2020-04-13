@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Wisdom of Futuresight",
+    "setid": [95006],
+    "skill_atk" : 18,
+    "fire": 16, "water": 16, "light": 16, "shadow": 16
+  },
+
+  {
+    "name": "Black Cloud: Swallowed Sun",
+    "setid": [95006, 95016],
+    "skill_atk" : 18,
+    "fire": 28, "water": 28, "light": 28, "shadow": 28
+  },
+
+  {
+    "name": "Black Cloud: Swallowed Earth",
+    "setid": [95006, 95016],
+    "skill_atk" : 14,
+    "fire": 28, "water": 28, "light": 28, "shadow": 28,
+    "skill_up": [
+      {
+        "range": [1,48],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Black Cloud: Swallowed Sky",
+    "setid": [95006, 95016],
+    "skill_atk" : 14,
+    "fire": 28, "water": 28, "light": 28, "shadow": 28,
+    "skill_cdr": [
+      {
+        "range": [60, 80],
+        "value": 12
+      }
+    ]
+  }
+]

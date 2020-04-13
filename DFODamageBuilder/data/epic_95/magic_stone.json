@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Samsara: Time of Rebirth",
+    "setid": [95007],
+    "skill_atk": 10,
+    "fire": 50, "water": 50, "light": 50, "shadow": 50
+  },
+
+  {
+    "name": "Black Wind: Cracking Sun",
+    "setid": [95007, 95017],
+    "additional_crit": 15,
+    "skill_atk": 15
+  },
+
+  {
+    "name": "Black Wind: Cracking Earth",
+    "setid": [95007, 95017],
+    "additional_crit": 10,
+    "skill_atk": 15,
+    "skill_up": [
+      {
+        "range": [35, 50],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Black Wind: Cracking Sky",
+    "setid": [95007, 95017],
+    "additional_crit": 11,
+    "skill_atk": 15,
+    "skill_cdr": [
+      {
+        "range": [60, 70],
+        "value": 15
+      }
+    ]
+  }
+]

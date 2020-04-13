@@ -1,0 +1,90 @@
+[
+  {
+    "name" : "Altocumulus: Sky Gatherer",
+    "set_id"  : [95001],
+    "all_atk" : 4,
+    "bonus_damage" : 16
+  },
+
+  {
+    "name" : "Super: Altocumulus: Sky Gatherer",
+    "set_id"  : [95001, 95011],
+    "all_atk" : 5,
+    "bonus_damage" : 21
+  },
+
+  {
+    "name": "Peaceful Ending: Never-twisted Mind",
+    "set_id": [95002],
+    "additional_crit": 7,
+    "skill_up": [
+      {
+        "range": [1, 85],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Super: Peaceful Ending: Never-twisted Mind",
+    "set_id": [95002, 95012],
+    "additional_crit": 10,
+    "skill_up": [
+      {
+        "range": [1, 85],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Nebulous Enthralling Cygnus",
+    "set_id": [95003],
+    "fire": 30, "water": 30, "light": 30, "shadow":30,
+    "skill_up": [
+      {
+        "range": [85, 85],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Super: Nebulous Enthralling Cygnus",
+    "set_id": [95003, 95013],
+     "fire": 40, "water": 40, "light": 40, "shadow":40,
+    "skill_up": [
+      {
+        "range": [85, 85],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Excursio the Raider",
+    "set_id": [95004],
+    "additional_crit": 19
+  },
+
+  {
+    "name": "Super: Excursio the Raider",
+    "set_id": [95004, 95014],
+    "additional_crit": 24
+  },
+
+  {
+    "name": "Navy Blue Lightbearer of Peace",
+    "set_id": [95005],
+    "bonus_damage": 14,
+    "shadow": 16
+  },
+
+
+  {
+    "name": "Super: Navy Blue Lightbearer of Peace",
+    "set_id": [95005, 95015],
+    "bonus_damage": 18,
+    "shadow": 20
+  }
+]

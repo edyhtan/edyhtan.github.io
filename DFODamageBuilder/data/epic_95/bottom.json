@@ -1,0 +1,90 @@
+[
+  {
+    "name" : "Stratus: Sky Course",
+    "set_id"  : [95001],
+    "all_atk" : 4,
+    "additional_crit" : 17
+  },
+
+  {
+    "name" : "Super: Stratus: Sky Course",
+    "set_id"  : [95001, 95011],
+    "all_atk" : 5,
+    "additional_crit" : 21
+  },
+
+  {
+    "name": "Morning Calm: Never-fading Light",
+    "set_id": [95002],
+    "atk_up": 17,
+    "skill_up": [
+      {
+        "range": [40, 48],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Super: Morning Calm: Never-fading Light",
+    "set_id": [95002, 95012],
+    "atk_up": 21,
+    "skill_up": [
+      {
+        "range": [35, 48],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Sublime Breezy Vega",
+    "set_id": [95003],
+    "additional_crit": 14,
+    "skill_up": [
+      {
+        "range": [50, 50],
+        "value": 1
+      }
+    ]
+
+  },
+
+  {
+    "name": "Super: Sublime Breezy Vega",
+    "set_id": [95003, 95013],
+    "additional_crit": 20,
+    "skill_up": [
+      {
+        "range": [50, 50],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Depugnatio the Menace",
+    "set_id": [95004],
+    "all_atk": 20
+  },
+
+  {
+    "name": "Super: Depugnatio the Menace",
+    "set_id": [95004, 95014],
+    "all_atk": 25
+  },
+
+  {
+    "name": "Gold Lightbearer of Hope",
+    "set_id": [95005],
+    "atk_up": 13,
+    "light": 16
+  },
+
+  {
+    "name": "Super: Gold Lightbearer of Hope",
+    "set_id": [95005, 95015],
+    "atk_up": 17,
+    "light": 20
+  }
+]

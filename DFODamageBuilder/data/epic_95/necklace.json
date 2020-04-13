@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Purity by the Light Spring",
+    "setid": [95006],
+    "stat_up" : 18,
+    "fire": 16, "water": 16, "light": 16, "shadow": 16
+  },
+
+  {
+    "name": "Black Bird: Crackling Sun",
+    "setid": [95006, 95016],
+    "atk_up" : 22,
+    "fire": 24, "water": 24, "light": 24, "shadow": 24
+  },
+
+  {
+    "name": "Black Bird: Crackling Earth",
+    "setid": [95006, 95016],
+    "atk_up" : 18,
+    "fire": 24, "water": 24, "light": 24, "shadow": 24,
+    "skill_up": [
+      {
+        "range": [60, 80],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Black Bird: Crackling Sky",
+    "setid": [95006, 95016],
+    "atk_up" : 19,
+    "fire": 24, "water": 24, "light": 24, "shadow": 24,
+    "skill_cdr": [
+      {
+        "range": [1, 30],
+        "value": 12
+      }
+    ]
+  }
+]

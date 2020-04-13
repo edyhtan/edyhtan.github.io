@@ -14,64 +14,77 @@
   },
 
   {
-    "name": "Water Ascension: Never-stopping Mountain Bloom",
+    "name": "Overflowing Growth: Never-ending Life",
     "set_id": [95002],
-    "bonus_damage": 17,
+    "stat_up": 17,
     "skill_up": [
       {
-        "range": [
-          1,
-          35
-        ],
+        "range": [1, 35],
         "value": 1
       }
     ]
   },
 
   {
-    "name": "Super: Water Ascension: Never-stopping Mountain Bloom",
+    "name": "Super: Overflowing Growth: Never-ending Life",
     "set_id": [95002, 95012],
-    "bonus_damage": 20,
+    "stat_up": 20,
     "skill_up": [
       {
-        "range": [
-          1,
-          45
-        ],
+        "range": [1, 45],
         "value": 1
       }
     ]
   },
 
   {
-    "name": "Humble Charming Polaris",
+    "name": "Serene Melodious Delphinus",
     "set_id": [95003],
-    "skill_atk": 14
+    "additional_atk": 14,
+    "skill_up": [
+      {
+        "range": [85, 85],
+        "value": 1
+      }
+    ]
+
   },
 
   {
-    "name": "Malignitas the Encroacher",
+    "name": "Super: Serene Melodious Delphinus",
+    "set_id": [95003, 95013],
+    "additional_atk": 20,
+    "skill_up": [
+      {
+        "range": [85, 85],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name": "Exoratio the Counterattacker",
     "set_id": [95004],
-    "skill_atk": 17
+    "stat_up": 18
   },
 
   {
-    "name": "Super: Malignitas the Encroacher",
+    "name": "Super: Exoratio the Counterattacker",
     "set_id": [95004, 95014],
-    "skill_atk": 23
+    "stat_up": 25
   },
 
   {
-    "name": "Red Lightbearer of Truth",
+    "name": "Jade Lightbearer of Happiness",
     "set_id": [95005],
-    "skill_atk": 12,
-    "fire": 16
+    "additional_crit": 14,
+    "water": 16
   },
 
   {
-    "name": "Super: Red Lightbearer of Truth",
+    "name": "Super: Jade Lightbearer of Happiness",
     "set_id": [95005, 95015],
-    "skill_atk": 17,
-    "fire": 20
+    "additional_crit": 18,
+    "water": 20
   }
 ]
