@@ -1,4 +1,5 @@
 import { Equipment, equip_type } from "./modules/loadout/equipment.js";
+import { get_final_multiplier } from "./modules/lib.js";
 
 async function load_equipment() {
     var gear_full_list = []
@@ -24,7 +25,8 @@ async function load_equipment() {
 
 async function main() {
     const gear_list = await load_equipment()
-    console.log(gear_list)
+    //console.log(gear_list)
+    console.log(get_final_multiplier(gear_list[0]))
 }
 
 main()

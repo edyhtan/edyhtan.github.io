@@ -35,7 +35,7 @@ export class Modifiers {
     skill_up = []
     skill_cdr = []
 
-    constructor(json_data = null) {
+    constructor(json_data = null, finalize = false) {
         this.skill_up.length = skill_level._length
         this.skill_up.fill(0)
         this.skill_cdr.length = skill_level._length
