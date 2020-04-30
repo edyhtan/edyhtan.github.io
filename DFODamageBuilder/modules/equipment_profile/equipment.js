@@ -29,3 +29,23 @@ export class Equipment {
         this.set_id = json_data.set_id
     }
 }
+
+export class SetBonus {
+    name = ""
+    set_id = 0
+    set_item = 0
+    static_mod = null
+    trigger_mod = []
+
+    constructor(json_data = null) {
+        if (json_data != null) {
+            this.load_set(json_data)
+        }
+    }
+
+    load_set(json_data) {
+        this.static_mod = new Modifiers(json_data)
+        this.set_id = json_data.set_id
+        this.set_item = json_data.set_item
+    }
+}

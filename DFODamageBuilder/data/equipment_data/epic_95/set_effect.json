@@ -1,0 +1,246 @@
+[
+  {
+    "name" : "Cloudy Skies",
+    "set_id" : 95001,
+    "set_item": 3,
+    "stat_up": 10,
+    "additional_atk": 10,
+    "skill_up": [
+      {
+        "range": [50, 50],
+        "value": 1
+      },
+      {
+        "range": [85, 85],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name" : "Cloudy Skies",
+    "set_id" : 95001,
+    "set_item": 5,
+    "additional_crit": 26,
+    "skill_up": [
+      {
+        "range": [50, 50],
+        "value": 2
+      },
+      {
+        "range": [85, 85],
+        "value": 2
+      }
+    ]
+  },
+  {
+    "name" : "Super: Cloudy Skies",
+    "set_id" : 95011,
+    "set_item": 3,
+    "stat_up": 10,
+    "additional_atk": 13,
+    "skill_up": [
+      {
+        "range": [50, 50],
+        "value": 2
+      },
+      {
+        "range": [85, 85],
+        "value": 2
+      }
+    ]
+  },
+
+  {
+    "name" : "Super: Cloudy Skies",
+    "set_id" : 95011,
+    "set_item": 5,
+    "additional_crit": 36,
+    "skill_up": [
+      {
+        "range": [50, 50],
+        "value": 2
+      },
+      {
+        "range": [85, 85],
+        "value": 2
+      }
+    ]
+  },
+
+  {
+    "name" : "Beauty of Eternal Seasonality",
+    "set_id" : 95002,
+    "set_item": 3,
+    "skill_atk": 10,
+    "all_atk": 20
+  },
+
+  {
+    "name" : "Beauty of Eternal Seasonality",
+    "set_id" : 95002,
+    "set_item": 5,
+    "bonus_damage": 40
+  },
+
+  {
+    "name" : "Super: Beauty of Eternal Seasonality",
+    "set_id" : 95012,
+    "set_item": 3,
+    "skill_atk": 12,
+    "all_atk": 25
+  },
+
+  {
+    "name" : "Super: Beauty of Eternal Seasonality",
+    "set_id" : 95012,
+    "set_item": 5,
+    "bonus_damage": 48
+  },
+
+  {
+    "name" : "Brightest Primordial Star",
+    "set_id" : 95003,
+    "set_item": 3,
+    "skill_up": [
+      {
+        "range": [50, 50],
+        "value": 1
+      },
+      {
+        "range": [85, 85],
+        "value": 1
+      }
+    ],
+    "all_atk": 20
+  },
+
+  {
+    "name" : "Brightest Primordial Star",
+    "set_id" : 95003,
+    "set_item": 5,
+    "elemental_bonus_damage": 30
+  },
+
+  {
+    "name" : "Super: Brightest Primordial Star",
+    "set_id" : 95013,
+    "set_item": 3,
+    "skill_up": [
+      {
+        "range": [50, 50],
+        "value": 2
+      },
+      {
+        "range": [85, 85],
+        "value": 1
+      }
+    ],
+    "all_atk": 25
+  },
+
+  {
+    "name" : "Super: Brightest Primordial Star",
+    "set_id" : 95013,
+    "set_item": 5,
+    "elemental_bonus_damage": 35,
+    "skill_up": [
+      {
+        "range": [85, 85],
+        "value": 1
+      }
+    ]
+  },
+
+  {
+    "name" : "Onslaught: Last Stand",
+    "set_id": 95004,
+    "set_item": 3,
+    "stat_up": 27
+  },
+
+  {
+    "name" : "Onslaught: Last Stand",
+    "set_id": 95004,
+    "set_item": 5,
+    "atk_up": 37
+  },
+
+  {
+    "name" : "Super: Onslaught: Last Stand",
+    "set_id": 95014,
+    "set_item": 3,
+    "stat_up": 35
+  },
+
+  {
+    "name" : "Super: Onslaught: Last Stand",
+    "set_id": 95014,
+    "set_item": 5,
+    "atk_up": 45
+  },
+
+  {
+    "name" : "Five Bright: Lightbearers of Meaning",
+    "set_id": 95005,
+    "set_item": 3,
+    "fire": 20, "water": 20, "shadow": 20, "light": 20,
+    "all_atk": 20,
+  },
+
+  {
+    "name": "Five Bright: Lightbearers of Meaning",
+    "set_id": 95005,
+    "set_item": 5,
+    "elemental_bonus_damage": 30
+  },
+
+  {
+    "name" : "Super: Five Bright: Lightbearers of Meaning",
+    "set_id": 95015,
+    "set_item": 3,
+    "fire": 25, "water": 25, "shadow": 25, "light": 25,
+    "all_atk": 25,
+  },
+
+  {
+    "name": "Super: Five Bright: Lightbearers of Meaning",
+    "set_id": 95015,
+    "set_item": 5,
+    "elemental_bonus_damage": 35
+  },
+
+  {
+    "name": "Radiant One: Glory",
+    "set_id": 95006,
+    "set_item": 3,
+    "skill_atk": 10,
+    "bonus_damage": 20
+  },
+
+  {
+    "name": "First Dark Power",
+    "set_id": 95016,
+    "set_item": 3,
+    "skill_atk": 8,
+    "stat_up": 12,
+    "bonus_damage": 12
+  },
+
+  {
+    "name": "Cycle of Life",
+    "set_id": 95007,
+    "set_item": 3,
+    "all_atk": 12,
+    "skill_atk": 20
+  },
+
+  {
+    "name": "Second Dark Power",
+    "set_id": 95017,
+    "set_item": 3,
+    "skill_atk": 15,
+    "additional_crit": 10,
+    "stat_up": 8
+  }
+]
